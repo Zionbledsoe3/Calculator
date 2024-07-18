@@ -1,13 +1,13 @@
 *{
-margin:0
-padding:0
+margin:0;
+padding:0;
 box-sizing: border-box;
 
 }
 
 html{
-    font-family: "roboto", "Noto sana", "helvetica", sans-serif
-    font-size: 14px:
+    font-family: "roboto", "Noto sana", "helvetica", sans-serif;
+    font-size: 14px;
     background-color: #3498D8;
     height: 100%;
 }
