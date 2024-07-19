@@ -17,7 +17,7 @@
   height: auto;
   margin: 70px auto 0;
   overflow: hidden;
-  box-shadow: 4px 4px rgba(0,0,0.2);
+  box-shadow: 4px 4px rgba(0,0,0,.2);
   
   }
   
@@ -144,3 +144,4 @@
   .credit a, .error {
     color: #c2185b;
   }
+  
