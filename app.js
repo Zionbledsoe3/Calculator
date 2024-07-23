@@ -26,7 +26,6 @@ function handleKeyPress(e){
     if(operation.indexOf(key) !== -1){
         decimalAdded = false
     }
-}
 
 if(operation.length === 0 && key === '_'){
     operation += key
@@ -42,3 +41,16 @@ if (operators.indexOf(lastChar)!== -1 && operators.innerHTMLOf(key) !== -1){
     input.innerHTML = operation
     return
 }
+
+if (key){
+    if (key === '.') decimalAdded = true
+    operation += key
+    input.innerHTML = operation
+    return
+ }
+
+}
+
+keys.forEach(key => {
+    key.addEventListener('click', handleKeyPress)
+})
